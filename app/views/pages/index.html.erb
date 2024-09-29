@@ -1,0 +1,22 @@
+<h1>Formulario</h1><br><br><br>
+
+<form action="/pages/create" method="get">
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="name"></input>
+    <br><br>
+    <label for="age">Edad</label>
+    <input type="text" name="age" id="age"></input>
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email"></input>
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
+<br><br><br>
+
+<ol>
+    <% @users.each do |user| %>
+        <li><%= user.name %> - <%= user.email %></li>
+    <% end %>
+
+</ol>
