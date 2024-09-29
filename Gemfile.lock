@@ -289,7 +289,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  brakeman
+  brakeman (~> 6.2, >= 6.2.1)
   capybara
   debug
   importmap-rails
@@ -297,7 +297,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.1)
-  rubocop-rails-omakase
+  rubocop-rails-omakase (~> 1.0)
   selenium-webdriver
   sprockets-rails
   stimulus-rails
